@@ -63,8 +63,7 @@ function Header() {
     >
       <Box maxWidth='100vw' margin='0 auto'>
         <HStack
-          pl={{base: '1vw', sm: '2vw', md: '5vw'}}
-          pr='25px'
+          px={{base: '3vw', sm: '5vw', md: '5vw'}}
           py={4}
           justifyContent='space-between'
           alignItems='center'

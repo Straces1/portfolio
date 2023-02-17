@@ -13,7 +13,7 @@ function Projects() {
 
     const projects = [
         {
-            heading: "Amateur Outdoor Photographer's Portfolio",
+            heading: "Outdoor Photographer's Portfolio",
             imgSrc: './images/pavla-portfolio.webp',
             text: "Responsive photographer's web portfolio built in React JS, using Chakra UI component library.", // , includes contact form powered by Formik and Yup
             linkPage: 'https://pavlabphoto.org/',
