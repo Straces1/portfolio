@@ -1,13 +1,16 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import { Theme } from "./Theme"
+import {lazy, Suspend} from 'react'
 import Header from "./components/Header"
 import LandingPage from "./components/LandingPage"
-import Projects from "./components/Projects"
-import ContactMe from "./components/ContactMe"
-import About from "./components/About"
+// import Projects from "./components/Projects"
+// import ContactMe from "./components/ContactMe"
+// import About from "./components/About"
 import { useTheme } from './themeContext';
 
-
+const Projects = lazy(() => import("./components/Projects"))
+const ContactMe = lazy(() => import("./components/ContactMe"))
+const About = lazy(() => import("./components/About"))
 
 function App() {
   const {theme} = useTheme()
@@ -20,9 +23,11 @@ function App() {
       <main>
         <Header />
         <LandingPage />
-        <Projects />
-        <About />
-        <ContactMe />
+        <Suspend>
+          <Projects />
+          <About />
+          <ContactMe />
+        </Suspend>
       </main>
     </ChakraProvider>
   )
