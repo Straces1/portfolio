@@ -28,7 +28,7 @@ function LandingPage() {
         alignItems="center"
       >
         <Image 
-          src='./images/avatar.webp'
+          src='../images/avatar.webp'
           borderRadius='50%'
           width={{base: '70vw', sm: '40vw', md:'30vw'}}
           mx='auto'
