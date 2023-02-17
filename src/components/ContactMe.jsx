@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import FullScreen from '../Components/FullScreen'
+import FullScreen from './FullScreen'
 import {Theme} from '../Theme'
 import {
     Heading,VStack,FormControl,Input,FormLabel,FormErrorMessage,Select,Textarea,Button,Box, Modal, useDisclosure, ModalOverlay, ModalCloseButton, ModalBody, Text, ModalContent, ModalHeader 
