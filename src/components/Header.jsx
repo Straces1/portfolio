@@ -116,7 +116,7 @@ function Header() {
                       <MenuList bg='rgba(53,58,75,0.7)'>
                         {menuArray.map((item, key) => {
                           return(
-                            <MenuItem bg='rgba(53,58,75,0.7)' onClick={() => handleClick(item)}>{item}</MenuItem>
+                            <MenuItem key={key} bg='rgba(53,58,75,0.7)' onClick={() => handleClick(item)}>{item}</MenuItem>
                           )
                         })}
                         <MenuItem bg='rgba(53,58,75,0.7)' onClick={toggleTheme}>{theme === 'light' ? <BsMoon size='1.5em'/> : <BsSun size='1.7em'/>}</MenuItem>

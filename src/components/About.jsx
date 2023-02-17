@@ -1,5 +1,5 @@
 import React from 'react'
-import FullScreen from '../Components/FullScreen'
+import FullScreen from './FullScreen'
 import GitLogoB from '../images/github-black.svg'
 import GitLogoW from '../images/github-white.svg'
 import chakra from '../images/chakra.svg'
