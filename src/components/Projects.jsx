@@ -20,11 +20,11 @@ function Projects() {
             linkCode: 'https://github.com/Straces1/node-todoList'
         },
         {
-            heading: "Outdoor Photographer's Portfolio",
-            imgSrc: './images/pavla-portfolio.webp',
-            text: "Responsive photographer's web portfolio built in React JS, using Chakra UI component library.", // , includes contact form powered by Formik and Yup
-            linkPage: 'https://pavlabphoto.org/',
-            linkCode: 'https://github.com/Straces1/pavla-breska-photography'
+            heading: "Ecommerce Product Page",
+            imgSrc: './images/sneakers.webp',
+            text: "Responsive Ecommerce according to FrontEnd Mentors design template. Built with use of Style Components. User can add items to the cart, cart section will display items and calculate total price.",
+            linkPage: 'https://straces1.github.io/ecommerce/#/',
+            linkCode: 'https://github.com/Straces1/ecommerce'
         },
         {
             heading: "REST Countries API with Color theme Switcher",
@@ -34,12 +34,14 @@ function Projects() {
             linkCode: 'https://github.com/Straces1/rest-country-api-app'
         },
         {
-            heading: "Ecommerce Product Page",
-            imgSrc: './images/sneakers.webp',
-            text: "Responsive Ecommerce according to FrontEnd Mentors design template. Built with use of Style Components. User can add items to the cart, cart section will display items and calculate total price.",
-            linkPage: 'https://straces1.github.io/ecommerce/#/',
-            linkCode: 'https://github.com/Straces1/ecommerce'
+            heading: "Outdoor Photographer's Portfolio",
+            imgSrc: './images/pavla-portfolio.webp',
+            text: "Responsive photographer's web portfolio built in React JS, using Chakra UI component library.", // , includes contact form powered by Formik and Yup
+            linkPage: 'https://pavlabphoto.org/',
+            linkCode: 'https://github.com/Straces1/pavla-breska-photography'
         },
+        
+        
     ]
   return (
     <FullScreen
