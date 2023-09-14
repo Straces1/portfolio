@@ -13,7 +13,7 @@ function Projects() {
 
     const projects = [
         {
-            heading: "Fullstack To Do List",
+            heading: "Fullstack To Do List with Admins Page",
             imgSrc: './images/todolist.webp',
             text: "Fullstack project I built in order to learn and strengthen my backend coding skills. Backend is built in Node js with Express framework, it is connected to Mongo Database and frontend of this app is built with static ejs files",
             linkPage: 'https://todo-backend-app.cyclic.cloud',
