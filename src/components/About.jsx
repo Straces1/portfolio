@@ -1,10 +1,14 @@
 import React from 'react'
 import FullScreen from './FullScreen'
-import GitLogoB from '../images/github-black.svg'
-import GitLogoW from '../images/github-white.svg'
-import chakra from '../images/chakra.svg'
-import styledComponents from '../images/styled-components.svg'
-import vite from '../images/vitejs.svg'
+import GitLogoB from '../images/icons/github-black.svg'
+import GitLogoW from '../images/icons/github-white.svg'
+import chakra from '../images/icons/chakra.svg'
+import styledComponents from '../images/icons/styled-components.svg'
+import vite from '../images/icons/vitejs.svg'
+import jwt from '../images/icons/jwt.svg'
+import node from '../images/icons/nodejs.svg'
+import mongo from '../images/icons/mongo.svg'
+
 import { useTheme } from '../themeContext'
 import {
   Box,
@@ -52,6 +56,9 @@ function About() {
             <GridItem><Image src={chakra} width='60px' ml='-5px'/></GridItem>
             <GridItem><Image src={styledComponents} width='50px'/></GridItem>
             <GridItem><Image src={vite} width='50px'/></GridItem>
+            <GridItem><Image src={jwt} /></GridItem>
+            <GridItem><Image src={node} width='50px' /></GridItem>
+            <GridItem><Image src={mongo} width='50px' /></GridItem>
           </Grid>
 
 

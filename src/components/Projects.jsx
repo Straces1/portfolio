@@ -13,6 +13,13 @@ function Projects() {
 
     const projects = [
         {
+            heading: "Fullstack To Do List",
+            imgSrc: './images/todolist.webp',
+            text: "Fullstack project I built in order to learn and strengthen my backend coding skills. Backend is built in Node js with Express framework, it is connected to Mongo Database and frontend of this app is built with static ejs files",
+            linkPage: 'https://todo-backend-app.cyclic.cloud',
+            linkCode: 'https://github.com/Straces1/node-todoList'
+        },
+        {
             heading: "Outdoor Photographer's Portfolio",
             imgSrc: './images/pavla-portfolio.webp',
             text: "Responsive photographer's web portfolio built in React JS, using Chakra UI component library.", // , includes contact form powered by Formik and Yup
