@@ -13,6 +13,14 @@ function Projects() {
 
     const projects = [
         {
+            heading: "Fullstack web app for yoga teacher",
+            imgSrc: './images/mern-app.webp',
+            text: 'Fullstack web app built in MERN (MongoDB, Express, ReactJS, NodeJS). This project was build for a real client according to UI Design created by Anna Vlasakova. Client can log in which allows to see a dashboard, where new yoga classes and events can be created. In case the yoga business grows, the owner can create new users too.',
+            linkPage: 'https://immerse-yourself-frontend.onrender.com/',
+            linkCode: 'https://github.com/Straces1/mern-frontend',
+            backend: 'https://github.com/Straces1/mern-backend'
+        },
+        {
             heading: "Fullstack To Do List with Admins Page",
             imgSrc: './images/todolist.webp',
             text: "Fullstack project I built in order to learn and strengthen my backend coding skills. Backend is built in Node js with Express framework, it is connected to Mongo Database and frontend of this app is built with static ejs files",
@@ -69,9 +77,10 @@ function Projects() {
                         <GridItem colSpan={{base: 4, sm: 2, md: 3}}>
                         <VStack fontSize={['md', 'md', 'md', 'lg']}>
                             <Text align='left'>{project.text}</Text>
-                            <Grid templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)'}} gap='15px' alignSelf='start'>
+                            <Grid templateColumns={{base: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)'}} gap='15px' alignSelf='start'>
                                 <Link mr='5px' href={project.linkPage} isExternal>See more <ExternalLinkIcon mx='2px' mb='4px' /></Link>
-                                <Link href={project.linkCode} isExternal><Flex gap='5px'><span>Code </span></Flex></Link>
+                                <Link mr='5px' href={project.linkCode} isExternal><Flex gap='5px'><span>Code </span></Flex></Link>
+                                {project.backend ? <Link ml={{base: '0', md: '-60px'}} href={project.linkCode} isExternal><Flex gap='5px'><span>Backend</span></Flex></Link> : null}
                             </Grid>
                         </VStack>
                         </GridItem>

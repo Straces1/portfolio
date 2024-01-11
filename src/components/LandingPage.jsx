@@ -36,7 +36,7 @@ function LandingPage() {
         <VStack alignItems='flex-start'>
           <Heading size={{base: 'lg', md: 'xl'}}>Hi, I'm Ondrej</Heading>
           <Box w={{base: '90vw', sm: '40vw', md:'30vw'}}>
-            <Text>Junior FrontEnd developer, specialized in ReactJS</Text>
+            <Text>Junior self-taught fulstack developer. Proficient in JavaScript, ReactJS, NodeJS</Text>
           </Box>
         </VStack>
       
